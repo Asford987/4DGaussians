@@ -3,12 +3,12 @@
 OptimizationParams = dict(
 
     coarse_iterations = 3000,
-    deformation_lr_init = 0.0008,
-    deformation_lr_final = 0.000008,
+    deformation_lr_init = 0.00016,
+    deformation_lr_final = 0.0000016,
     deformation_lr_delay_mult = 0.01,
-    grid_lr_init = 0.0032,
-    grid_lr_final = 0.000032,
-    iterations = 10000,
+    grid_lr_init = 0.0016,
+    grid_lr_final = 0.000016,
+    iterations = 5000,
     pruning_interval = 8000,
     percent_dense = 0.01,
     render_process=False,
