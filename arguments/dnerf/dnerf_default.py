@@ -3,8 +3,8 @@
 OptimizationParams = dict(
 
     coarse_iterations = 3000,
-    deformation_lr_init = 0.00008,
-    deformation_lr_final = 0.0000008,
+    deformation_lr_init = 0.00032,
+    deformation_lr_final = 0.0000032,
     deformation_lr_delay_mult = 0.01,
     grid_lr_init = 0.0016,
     grid_lr_final = 0.000016,
